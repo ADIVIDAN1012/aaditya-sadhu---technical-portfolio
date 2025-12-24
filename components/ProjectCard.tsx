@@ -65,10 +65,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
             )}
           </div>
           
-          <button className="flex items-center space-x-2 text-xs font-bold uppercase tracking-widest text-white/80 group-hover:text-white transition-colors">
+          <a 
+            href={project.link || project.github} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center space-x-2 text-xs font-bold uppercase tracking-widest text-white/80 group-hover:text-white transition-colors"
+          >
             <span>Explore</span>
             <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
         </div>
       </div>
     </motion.div>

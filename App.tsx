@@ -137,11 +137,11 @@ const App: React.FC = () => {
             </p>
             
             <div className="flex flex-wrap justify-center gap-6">
-              <a href="mailto:aaditya@example.com" className="px-8 py-4 bg-[#7028e4] text-white font-bold rounded-full flex items-center space-x-3 hover:scale-105 transition-transform">
+              <a href="mailto:aadityasadhu50@gmail.com" className="px-8 py-4 bg-[#7028e4] text-white font-bold rounded-full flex items-center space-x-3 hover:scale-105 transition-transform">
                 <Mail size={20} />
                 <span>Academic Inquiry</span>
               </a>
-              <a href="#" className="px-8 py-4 glass text-white font-bold rounded-full flex items-center space-x-3 hover:bg-white/10 transition-all">
+              <a href="https://github.com/ADIVIDAN1012" className="px-8 py-4 glass text-white font-bold rounded-full flex items-center space-x-3 hover:bg-white/10 transition-all">
                 <Linkedin size={20} />
                 <span>Professional Profile</span>
               </a>
