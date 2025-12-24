@@ -141,7 +141,7 @@ const App: React.FC = () => {
                 <Mail size={20} />
                 <span>Academic Inquiry</span>
               </a>
-              <a href="https://github.com/ADIVIDAN1012" className="px-8 py-4 glass text-white font-bold rounded-full flex items-center space-x-3 hover:bg-white/10 transition-all">
+              <a href="https://www.linkedin.com/in/aaditya-sadhu-33b33b2a6/" className="px-8 py-4 glass text-white font-bold rounded-full flex items-center space-x-3 hover:bg-white/10 transition-all">
                 <Linkedin size={20} />
                 <span>Professional Profile</span>
               </a>

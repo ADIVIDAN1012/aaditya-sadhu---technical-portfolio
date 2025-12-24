@@ -45,6 +45,7 @@ const Navbar: React.FC = () => {
 
           <div className="flex items-center space-x-4">
             <a href="https://github.com/ADIVIDAN1012/aaditya-sadhu---technical-portfolio" className="p-2 hover:bg-white/10 rounded-full transition-colors"><Github size={18} /></a>
+            <a href="https://www.linkedin.com/in/aaditya-sadhu-33b33b2a6/" className="p-2 hover:bg-white/10 rounded-full transition-colors"><Linkedin size={18} /></a>
             <button 
               className="md:hidden p-2"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
